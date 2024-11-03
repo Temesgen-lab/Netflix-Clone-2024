@@ -1,0 +1,40 @@
+.footer-outer-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-inner-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   color: #808080;
+   flex-basis: 60%;
+}
+.footer-icons{
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+    
+}
+.footer-icons svg{
+font-size: 2rem;
+}
+.footer-data{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-data ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    list-style: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.service-code{
+    padding: 0.3rem 1.6rem;
+    font-size: 1.2rem;
+    border: 1px solid #e7e7e7;
+    width: fit-content;
+}
