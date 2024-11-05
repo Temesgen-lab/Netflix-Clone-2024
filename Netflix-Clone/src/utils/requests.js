@@ -1,4 +1,5 @@
-const API_KEY=process.env.REACT_APP_API_KEY
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 
 
 const requests = {
@@ -21,3 +22,4 @@ const requests = {
   fetchTvShows: `tv/popular?api_key=${API_KEY}&language=en_US&page=1`,
 };
 export default requests;
+export { API_KEY };
