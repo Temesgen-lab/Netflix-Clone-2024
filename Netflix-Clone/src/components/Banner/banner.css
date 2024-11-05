@@ -1,17 +1,19 @@
 .banner{
-  display: grid;
- grid-template-columns: 1fr;
-  justify-content: center;
-  align-items: end;
+  display: flex;
+ flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   color: #fff;
  
 }
+
 .banner-contents{
   display: flex;
-  
+ 
+  margin-left: 4vw;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 .banner-title{
   font-size: 4rem;
@@ -41,6 +43,7 @@
 }
 .banner-desc{
   font-size: 1.8rem;
+  width: 30vw;
 }
 .banner-fade{
  

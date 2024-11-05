@@ -12,8 +12,10 @@
   transition-timing-function: ease-in;
 }
 .header-container {
+  max-width: 126rem;
+  margin: auto;
   display: flex;
-  max-width: 90%;
+  
   flex-grow: 1;
   justify-content: space-between;
   align-items: center;
